@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "drush/drush": "^10"
+        "drush/drush": "^10",
         "pantheon-upstreams/upstream-configuration": "*"
     },
     "conflict": {
