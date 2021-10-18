@@ -11,3 +11,9 @@ protected_web_paths:
   - /private/
   - /sites/default/files/private/
   - /sites/default/files/config/
+workflows:
+  deploy_product:
+    after:
+      - type: webphp
+        description: 'test quicksilver'
+        script: private/qs_webphp.php
